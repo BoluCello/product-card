@@ -4,9 +4,13 @@
   font-family: "Quicksand", sans-serif;
 }
 
+body {
+    background-color: beige;
+}
+
 .card {
     border: 2px solid black;
-    background-color: aqua;
+    background-color: #fff;
     width: 250px;
     height: 65%;
     text-align: center;
@@ -17,6 +21,8 @@
 .image .product-image {
     width: 200px;
     height: 200px;
+    border: 15px solid beige;
+    border-radius: 20% 0;
 }
 
 .product-description {
@@ -29,4 +35,12 @@ button{
     background-color: black;
     padding: 10px 30px;
     margin-top: 15px;
+    border-radius: 20% 0;
+    cursor: pointer;
+}
+
+button:hover {
+    color: aqua;
+    padding: 20px;
+    transition: all 0.3s ease-out;
 }
